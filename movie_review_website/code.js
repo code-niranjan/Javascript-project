@@ -12,7 +12,7 @@ let noFound=document.querySelector('.not-found')
 submitButton.addEventListener('click',function(e){
     e.preventDefault()
     let query=searchInput.value.split(' ').join('+');
-    let url=`https://www.omdbapi.com/?t=${query}&apikey=${YOUR_API_KEY}`  
+    let url=`https://www.omdbapi.com/?t=${query}&apikey=59154c18`  
     fetch(url)
     .then(response => {
     // Check if the response is OK
